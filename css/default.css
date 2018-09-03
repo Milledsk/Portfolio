@@ -1,0 +1,152 @@
+@font-face {
+    font-family: AU-Passata;
+    src: url(font-au/AUPassata_Rg.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: AU-Passata;
+    src: url(font-au/AUPassata_Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: AU-Passata;
+    src: url(font-au/AUPassata_Light.ttf);
+    font-style: italic;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;  
+    font-family: AU-Passata, "opensans-regular", sans-serif;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 539px) {
+    .navtext {
+        margin-left: 50px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: AU-Passata, "opensans-bold", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font: 19px/28px AU-Passata, "opensans-light", sans-serif; /* 19px/36px*/
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.8em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*
+ -------------- navbar --------------
+ */
+
+
+/* change the background color */
+.navbar {
+    background-color: #3aafa9;
+    /*/border-bottom: 4px solid #FFFFFF;*/
+}
+/* change the brand and text color */
+.navbar .navbar-brand,
+.navbar .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar .navbar-nav .nav-link {
+    color: rgba(255,255,255,.75);
+}
+/* change the color of active or hovered links */
+.navbar .navbar-brand:hover,
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/* change navbar-toggler inside lines color (stroke) */
+.navbar-light span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: white;
+}
+
+/* change hamburger button border color */
+button.navbar-toggler.navbar-toggler-right {
+    border-color: white;
+}
+
+/*
+ -------------- footer --------------
+ */
+
+footer {
+    background-color: #3aafa9;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+/*
+footer h3 {
+    padding-bottom: 25px;
+}*/
+
+footer a {
+    color: #ffffff;
+}
+
+footer i {
+    margin: 0 15px;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer .fab:hover, footer .fas:hover {
+    transform: scale(1.2);
+}
+
+footer hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+}
