@@ -42,8 +42,6 @@ body {
     color: #000000;
 }
 
-
-
 #icons-section span {
     margin: 20px 0; 
 }
@@ -56,8 +54,6 @@ body {
     color: #00ffff;
 }
 
-
-
 /*
  -------------- PROJECTS SECTION --------------
  */
@@ -68,26 +64,35 @@ body {
 }
 
 #project-section img {
-    border: 1px solid #00ffff;
+    border: 2px solid #00ffff;
+    margin-bottom: 40px;
 }
 
 #project-section iframe {
-    border: 1px solid #00ffff;
+    border: 2px solid #00ffff;
 }
 
 #project-section h1 {
-    color: #000000;
+    color: #00ffff;
     padding-top: 50px; 
 }
 
 #project-section p {
-    font-size: 24px;
-    color: #000000;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 #project-section h2 {
     color: #00ffff;
     padding: 30px; 
+}
+
+#project-section h4 {
+    color: #00ffff;
+}
+
+#project-section .text-space {
+    margin-bottom: 20px; 
 }
 
 .embed-container { 
@@ -106,6 +111,7 @@ body {
     height: 100%; 
 }
 
+
 /*
  -------------- FACTS SECTION --------------
  */
@@ -118,7 +124,7 @@ body {
 #facts-section p {
     font-size: 20px;
     color: #000000;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 #facts-section h4 {
@@ -126,3 +132,5 @@ body {
     color: #000000;
     text-transform: uppercase;
 }
+
+
