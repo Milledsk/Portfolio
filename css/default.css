@@ -25,7 +25,9 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background-color: #000000;  
+    background: url("../img/lines_repeat.png");
+    background-size: cover;
+    background-color: #333333;
     font-family: AU-Passata, "opensans-regular", sans-serif;
 }
 

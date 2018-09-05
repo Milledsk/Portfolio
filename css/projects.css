@@ -1,8 +1,3 @@
-body {
-    background: url("../img/lines.png") no-repeat;
-    background-size: cover;
-    background-color: #000000;
-}
 
 /*
  -------------- TITLE SECTION --------------
@@ -47,7 +42,7 @@ body {
 }
 
 #icons-section .fa-stack-2x {
-    color: #000000;
+    color: #333333;
 }
 
 #icons-section .fa-stack-1x {
