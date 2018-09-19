@@ -4,7 +4,8 @@
  */
 
  #title-section {
-    padding: 70px 0;
+    padding-top: 70px;
+    padding-bottom: 30px;
     
 }
 
@@ -23,30 +24,9 @@
     border-radius: 50%;
 }
 
-/*
- -------------- ICONS SECTION --------------
- */
-
- #icons-section {
-    padding: 30px 0;
-    background-color: #00ffffe0;
-}
-
-#icons-section p {
-    font-size: 20px;
-    color: #000000;
-}
-
-#icons-section span {
-    margin: 20px 0; 
-}
-
-#icons-section .fa-stack-2x {
-    color: #333333;
-}
-
-#icons-section .fa-stack-1x {
-    color: #00ffff;
+#title-section hr {
+    border: 2px solid #00ffff;
+    width: 5%;
 }
 
 /*
@@ -87,7 +67,7 @@
 }
 
 #project-section .text-space {
-    margin-bottom: 20px; 
+    margin-bottom: 40px; 
 }
 
 .embed-container { 
@@ -109,6 +89,7 @@
 #project-section a p{
     color: #00ffff;
     text-align: center;
+    font-weight: bold; 
 }
 
 
@@ -131,6 +112,27 @@
     font-size: 20px;
     color: #000000;
     text-transform: uppercase;
+}
+
+/*
+ -------------- FLOATING BUTTON --------------
+ */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	top:40px;
+	right:40px;
+}
+
+.fa-4x {
+    color: #00ffff;
+    text-shadow: 3px 3px 16px #272634;
+}
+
+.fa-stack-1x {
+    color: #333333;
 }
 
 
