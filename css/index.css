@@ -51,6 +51,11 @@
     width: 5%;
 }
 
+#logo-section .icon-text {
+     color: #333333;
+     font-size: 0.5em; 
+    }
+
 /*
  -------------- PROJECTS SECTION --------------
  */
